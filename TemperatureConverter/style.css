@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(130deg, red, yellow);
+
+}
+
+#outer {
+    height: auto;
+    /* width: 60%; */
+    border: 1px solid;
+    text-align: center;
+    ;
+}
+
+input {
+    width: 30%;
+}
