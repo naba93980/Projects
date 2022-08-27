@@ -1,0 +1,246 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resume</title>
+    <style>
+        #header {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pic {
+    width: 150px;
+    height: 150px;
+    margin: 2.5% 10% 2.5% 2.5%;
+    border-radius: 50%;
+}
+
+#personal_details {
+    margin: 2%;
+    margin-left: 30px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    text-decoration: solid;
+}
+
+#education {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#objective {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#education {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+table {
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+td {
+    text-align: center;
+}
+
+#skill {
+    margin-top: 10px;
+}
+
+.skillul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lang {
+    background-color: rgb(255, 162, 0);
+    padding: 2px;
+    border-radius: 8px;
+    display: inline;
+    width: 15%;
+    text-align: center;
+}
+
+.web {
+    background-color: rgb(255, 162, 0);
+    padding: 2px;
+    border-radius: 8px;
+    display: inline;
+    width: 15%;
+    text-align: center;
+}
+
+#lang,
+#web {
+    margin-right: 20px;
+}
+
+#half {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+#strength {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+#str {
+    line-height: 25px;
+}
+
+#project {
+    display: inline-block;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.para {
+    text-align: justify;
+    padding: 5px 15px 10px 15px;
+}
+
+body {
+    border: 1px solid;
+    box-shadow: 2px 2px 4px 3px rgb(201, 199, 199);
+}
+
+#sign {
+    margin: 40px;
+}
+
+.heading {
+    background-color: rgb(0, 72, 255);
+    color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="personal_details">
+        <p>
+          <b>
+            Mr. Nabajyoti Modak <br />
+            Mob: 7005520439 <br />
+            Email :
+            <a href="mailto: nabajyotimodak2000@gmail.com"
+              >nabajyotimodak2000@gmail.com</a
+            ><br />
+            Address: Agartala, Tripura, 799007
+          </b>
+        </p>
+      </div>
+      <img id="pic" src="./formalpic.jpg" alt="pic plz" />
+    </div>
+    <div id="objective">
+      <p class="heading">
+        <b>&nbsp;&nbsp;Objective</b>
+      </p>
+      <p class="para">
+        Challenging career in IT industry, in an organization, which offers
+        abundant opportunity to innovate, grow and develop. I would like to
+        utilize my technical skills for achieving the target and implement my
+        innovative ideas, skills and creativity for accomplishing the projects.
+      </p>
+    </div>
+    <div id="education">
+      <p class="heading">
+        <b>&nbsp;&nbsp;Academic Credentials</b>
+      </p>
+      <table>
+        <tr>
+          <th>Examination</th>
+          <th>CGPA/Percentage</th>
+          <th>Board/University</th>
+          <th>Year of passing</th>
+        </tr>
+        <tr>
+          <td>B TECH (till 6th semester)</td>
+          <td>9.4 CGPA</td>
+          <td>MAKAUT</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>Senior School Certificate</td>
+          <td>78.6%</td>
+          <td>CBSE</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>Secondary School</td>
+          <td>10 CGPA</td>
+          <td>CBSE</td>
+          <td>2016</td>
+        </tr>
+      </table>
+    </div>
+    <div id="skill">
+      <p class="heading">
+        <b>&nbsp;&nbsp;Skills</b>
+      </p>
+      <ul class="skillul">
+        <li class="lang">C</li>
+        <li class="lang">C++</li>
+        <li class="lang">Core Java</li>
+        <li class="lang">JavaScript</li>
+      </ul>
+      <ul class="skillul">
+        <li class="web">HTML5</li>
+        <li class="web">CSS3</li>
+        <li class="web">NodeJS</li>
+        <li class="web">MySQL</li>
+        <li class="web">MongoDB</li>
+      </ul>
+    </div>
+    <div id="half">
+      <div id="strength">
+        <p class="heading">
+          <b>&nbsp;&nbsp;Strength</b>
+        </p>
+        <ul>
+          <li id="str">Good communication skills</li>
+          <li id="str">Adaptability</li>
+          <li id="str">Quick learner</li>
+          <li id="str">Good management skills</li>
+          <li id="str">Leadership skills</li>
+        </ul>
+      </div>
+      <div id="project">
+        <p class="heading">
+          <b>&nbsp;&nbsp;Project</b>
+        </p>
+        <p class="para">
+          Random Jokes Generator – A simple application using HTML, CSS,
+          Javascript that fetches random jokes on every single click using an
+          API and display the jokes in browser.
+        </p>
+      </div>
+    </div>
+    <div id="signature">
+      <img id="sign" src="./Screenshot (61).png" alt="" />
+    </div>
+  </body>
+</html>
