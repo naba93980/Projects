@@ -4,23 +4,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TempConv</title>
-    <script defer src="./index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="outer">
-      <p>plz enter temp that u would convert</p>
-      <form action="./index.js">
-        <label for="temperature"></label>
-        <select name="cars" id="temperature">
-          <option value="">select</option>
+      <p>Plz enter temp that u would convert</p>
+      <form id="form">
+        
+        <select name="scale" id="unit">
           <option value="celsius">celsius</option>
           <option value="farenheight">farenheight</option>
         </select>
-        <input type="number" placeholder="enter temp" />
+
+        <input type="number" step="any" id="temperature" placeholder="enter temp" /> <br/>
+        <input type="submit">
       </form>
-      <button>submit</button>
-      <p></p>
+      
+      <p id="result"></p>
     </div>
+    <script defer src="./index.js"></script>
   </body>
 </html>
