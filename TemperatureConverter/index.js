@@ -11,6 +11,7 @@ function toCelsius(farenheight) {
 }
 
 form.addEventListener('submit', (e) => {
+    console.log(tempUnit.options); //returns a collection
     const unit = tempUnit.options[tempUnit.selectedIndex].value;
     if (unit == "celsius")
         result.innerText = `The temperature in farenheight ${toFarenheit(temperature.value)}`;
